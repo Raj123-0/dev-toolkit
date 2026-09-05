@@ -1,0 +1,11 @@
+﻿[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dev-toolkit"
+version = "0.1.0"
+description = "Lightweight zero-dependency utility suite"
+readme = "README.md"
+authors = [{ name = "Raj" }]
+requires-python = ">=3.8"
