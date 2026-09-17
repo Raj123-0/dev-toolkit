@@ -1,29 +1,32 @@
-﻿# dev-toolkit
+# Dev Toolkit
 
-A lightweight, zero-dependency Python utility suite for system diagnostics, benchmarking, and structured data formatting.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![CI](https://github.com/Raj123-0/dev-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/Raj123-0/dev-toolkit/actions)
+
+
+A Python application and utility: Dev Toolkit.
 
 ## Features
-- **Benchmarking**: High-resolution latency profiling and memory tracking decorators.
-- **Formatting**: Terminal-friendly table layouts and string utilities.
-- **Diagnostics**: Environment inspection and telemetry helpers.
 
-## Installation
+- Clean, modern Python 3.10+ implementation.
+- Typed signatures and robust error handling.
+- Comprehensive unit test coverage.
+
+## Installation & Usage
 
 ```bash
-pip install -e .
+git clone https://github.com/Raj123-0/dev-toolkit.git
+cd dev-toolkit
+python "toolkit/__init__.py" --help
 ```
 
-## Quick Start
+## Testing
 
-```python
-from toolkit.benchmarks import timer
-
-@timer
-def compute():
-    return sum(i * i for i in range(1_000_000))
-
-compute()
+```bash
+pytest tests/
 ```
 
 ## License
-MIT
+
+MIT License. See [LICENSE](LICENSE).
